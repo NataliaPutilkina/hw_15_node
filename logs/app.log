@@ -1,0 +1,97 @@
+[2025-08-27T13:50:06.273Z] ERROR: Unexpected error: Cannot convert undefined or null to object
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (<anonymous>)
+    at requestLogger (C:\Users\Наталья\Desktop\Проекты\_NODE\HW_NODE\hw_8_node\server\src\middleware\requestLogger.ts:6:51)
+    at Layer.handleRequest (C:\Users\Наталья\Desktop\Проекты\_NODE\HW_NODE\hw_8_node\server\node_modules\router\lib\layer.js:152:17)
+    at trimPrefix (C:\Users\Наталья\Desktop\Проекты\_NODE\HW_NODE\hw_8_node\server\node_modules\router\index.js:342:13)
+    at C:\Users\Наталья\Desktop\Проекты\_NODE\HW_NODE\hw_8_node\server\node_modules\router\index.js:297:9
+    at processParams (C:\Users\Наталья\Desktop\Проекты\_NODE\HW_NODE\hw_8_node\server\node_modules\router\index.js:582:12)
+    at next (C:\Users\Наталья\Desktop\Проекты\_NODE\HW_NODE\hw_8_node\server\node_modules\router\index.js:291:5)
+    at jsonParser (C:\Users\Наталья\Desktop\Проекты\_NODE\HW_NODE\hw_8_node\server\node_modules\body-parser\lib\types\json.js:100:7)
+    at Layer.handleRequest (C:\Users\Наталья\Desktop\Проекты\_NODE\HW_NODE\hw_8_node\server\node_modules\router\lib\layer.js:152:17)
+    at trimPrefix (C:\Users\Наталья\Desktop\Проекты\_NODE\HW_NODE\hw_8_node\server\node_modules\router\index.js:342:13)
+[2025-08-27T13:51:09.679Z] INFO: Request: POST /api/newsposts {"id":0,"title":"Чернігівський зоопарк повідомив","text":"Чернігівський зоопарк повідомив про радісну подію: у пари рудих лисиць народилося лисеня. Малюк почувається добре, харчується та активно досліджує вольєр. Відвідувачі вже можуть спостерігати за ним, а співробітники зоопарку обіцяють конкурс на вибір імені.","genre":"Other","isPrivate":true,"createDate":"2025-08-27T13:50:16.420Z"}
+[2025-08-27T13:51:09.703Z] WARN: ValidationError: [{"instancePath":"","schemaPath":"#/additionalProperties","keyword":"additionalProperties","params":{"additionalProperty":"id"},"message":"must NOT have additional properties"},{"instancePath":"","schemaPath":"#/additionalProperties","keyword":"additionalProperties","params":{"additionalProperty":"createDate"},"message":"must NOT have additional properties"}]
+[2025-08-27T13:51:09.845Z] ERROR: Unexpected error: Cannot convert undefined or null to object
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (<anonymous>)
+    at requestLogger (C:\Users\Наталья\Desktop\Проекты\_NODE\HW_NODE\hw_8_node\server\src\middleware\requestLogger.ts:6:51)
+    at Layer.handleRequest (C:\Users\Наталья\Desktop\Проекты\_NODE\HW_NODE\hw_8_node\server\node_modules\router\lib\layer.js:152:17)
+    at trimPrefix (C:\Users\Наталья\Desktop\Проекты\_NODE\HW_NODE\hw_8_node\server\node_modules\router\index.js:342:13)
+    at C:\Users\Наталья\Desktop\Проекты\_NODE\HW_NODE\hw_8_node\server\node_modules\router\index.js:297:9
+    at processParams (C:\Users\Наталья\Desktop\Проекты\_NODE\HW_NODE\hw_8_node\server\node_modules\router\index.js:582:12)
+    at next (C:\Users\Наталья\Desktop\Проекты\_NODE\HW_NODE\hw_8_node\server\node_modules\router\index.js:291:5)
+    at jsonParser (C:\Users\Наталья\Desktop\Проекты\_NODE\HW_NODE\hw_8_node\server\node_modules\body-parser\lib\types\json.js:100:7)
+    at Layer.handleRequest (C:\Users\Наталья\Desktop\Проекты\_NODE\HW_NODE\hw_8_node\server\node_modules\router\lib\layer.js:152:17)
+    at trimPrefix (C:\Users\Наталья\Desktop\Проекты\_NODE\HW_NODE\hw_8_node\server\node_modules\router\index.js:342:13)
+[2025-08-27T13:54:28.965Z] ERROR: Unexpected error: Cannot convert undefined or null to object
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (<anonymous>)
+    at requestLogger (C:\Users\Наталья\Desktop\Проекты\_NODE\HW_NODE\hw_8_node\server\src\middleware\requestLogger.ts:6:51)
+    at Layer.handleRequest (C:\Users\Наталья\Desktop\Проекты\_NODE\HW_NODE\hw_8_node\server\node_modules\router\lib\layer.js:152:17)
+    at trimPrefix (C:\Users\Наталья\Desktop\Проекты\_NODE\HW_NODE\hw_8_node\server\node_modules\router\index.js:342:13)
+    at C:\Users\Наталья\Desktop\Проекты\_NODE\HW_NODE\hw_8_node\server\node_modules\router\index.js:297:9
+    at processParams (C:\Users\Наталья\Desktop\Проекты\_NODE\HW_NODE\hw_8_node\server\node_modules\router\index.js:582:12)
+    at next (C:\Users\Наталья\Desktop\Проекты\_NODE\HW_NODE\hw_8_node\server\node_modules\router\index.js:291:5)
+    at jsonParser (C:\Users\Наталья\Desktop\Проекты\_NODE\HW_NODE\hw_8_node\server\node_modules\body-parser\lib\types\json.js:100:7)
+    at Layer.handleRequest (C:\Users\Наталья\Desktop\Проекты\_NODE\HW_NODE\hw_8_node\server\node_modules\router\lib\layer.js:152:17)
+    at trimPrefix (C:\Users\Наталья\Desktop\Проекты\_NODE\HW_NODE\hw_8_node\server\node_modules\router\index.js:342:13)
+[2025-08-27T13:54:33.250Z] ERROR: Unexpected error: Cannot convert undefined or null to object
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (<anonymous>)
+    at requestLogger (C:\Users\Наталья\Desktop\Проекты\_NODE\HW_NODE\hw_8_node\server\src\middleware\requestLogger.ts:6:51)
+    at Layer.handleRequest (C:\Users\Наталья\Desktop\Проекты\_NODE\HW_NODE\hw_8_node\server\node_modules\router\lib\layer.js:152:17)
+    at trimPrefix (C:\Users\Наталья\Desktop\Проекты\_NODE\HW_NODE\hw_8_node\server\node_modules\router\index.js:342:13)
+    at C:\Users\Наталья\Desktop\Проекты\_NODE\HW_NODE\hw_8_node\server\node_modules\router\index.js:297:9
+    at processParams (C:\Users\Наталья\Desktop\Проекты\_NODE\HW_NODE\hw_8_node\server\node_modules\router\index.js:582:12)
+    at next (C:\Users\Наталья\Desktop\Проекты\_NODE\HW_NODE\hw_8_node\server\node_modules\router\index.js:291:5)
+    at jsonParser (C:\Users\Наталья\Desktop\Проекты\_NODE\HW_NODE\hw_8_node\server\node_modules\body-parser\lib\types\json.js:100:7)
+    at Layer.handleRequest (C:\Users\Наталья\Desktop\Проекты\_NODE\HW_NODE\hw_8_node\server\node_modules\router\lib\layer.js:152:17)
+    at trimPrefix (C:\Users\Наталья\Desktop\Проекты\_NODE\HW_NODE\hw_8_node\server\node_modules\router\index.js:342:13)
+[2025-08-27T13:54:50.226Z] ERROR: Unexpected error: Cannot convert undefined or null to object
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (<anonymous>)
+    at requestLogger (C:\Users\Наталья\Desktop\Проекты\_NODE\HW_NODE\hw_8_node\server\src\middleware\requestLogger.ts:6:51)
+    at Layer.handleRequest (C:\Users\Наталья\Desktop\Проекты\_NODE\HW_NODE\hw_8_node\server\node_modules\router\lib\layer.js:152:17)
+    at trimPrefix (C:\Users\Наталья\Desktop\Проекты\_NODE\HW_NODE\hw_8_node\server\node_modules\router\index.js:342:13)
+    at C:\Users\Наталья\Desktop\Проекты\_NODE\HW_NODE\hw_8_node\server\node_modules\router\index.js:297:9
+    at processParams (C:\Users\Наталья\Desktop\Проекты\_NODE\HW_NODE\hw_8_node\server\node_modules\router\index.js:582:12)
+    at next (C:\Users\Наталья\Desktop\Проекты\_NODE\HW_NODE\hw_8_node\server\node_modules\router\index.js:291:5)
+    at jsonParser (C:\Users\Наталья\Desktop\Проекты\_NODE\HW_NODE\hw_8_node\server\node_modules\body-parser\lib\types\json.js:100:7)
+    at Layer.handleRequest (C:\Users\Наталья\Desktop\Проекты\_NODE\HW_NODE\hw_8_node\server\node_modules\router\lib\layer.js:152:17)
+    at trimPrefix (C:\Users\Наталья\Desktop\Проекты\_NODE\HW_NODE\hw_8_node\server\node_modules\router\index.js:342:13)
+[2025-08-27T13:58:20.318Z] ERROR: Unexpected error: Cannot convert undefined or null to object
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (<anonymous>)
+    at requestLogger (C:\Users\Наталья\Desktop\Проекты\_NODE\HW_NODE\hw_8_node\server\src\middleware\requestLogger.ts:6:51)
+    at Layer.handleRequest (C:\Users\Наталья\Desktop\Проекты\_NODE\HW_NODE\hw_8_node\server\node_modules\router\lib\layer.js:152:17)
+    at trimPrefix (C:\Users\Наталья\Desktop\Проекты\_NODE\HW_NODE\hw_8_node\server\node_modules\router\index.js:342:13)
+    at C:\Users\Наталья\Desktop\Проекты\_NODE\HW_NODE\hw_8_node\server\node_modules\router\index.js:297:9
+    at processParams (C:\Users\Наталья\Desktop\Проекты\_NODE\HW_NODE\hw_8_node\server\node_modules\router\index.js:582:12)
+    at next (C:\Users\Наталья\Desktop\Проекты\_NODE\HW_NODE\hw_8_node\server\node_modules\router\index.js:291:5)
+    at jsonParser (C:\Users\Наталья\Desktop\Проекты\_NODE\HW_NODE\hw_8_node\server\node_modules\body-parser\lib\types\json.js:100:7)
+    at Layer.handleRequest (C:\Users\Наталья\Desktop\Проекты\_NODE\HW_NODE\hw_8_node\server\node_modules\router\lib\layer.js:152:17)
+    at trimPrefix (C:\Users\Наталья\Desktop\Проекты\_NODE\HW_NODE\hw_8_node\server\node_modules\router\index.js:342:13)
+[2025-08-27T13:59:15.992Z] INFO: Incoming request
+[2025-08-27T14:01:19.759Z] INFO: Incoming request
+[2025-08-27T14:01:24.573Z] INFO: Incoming request
+[2025-08-27T14:02:00.971Z] INFO: Incoming request
+[2025-08-27T14:02:01.095Z] INFO: Incoming request
+[2025-08-27T14:02:14.943Z] INFO: Incoming request
+[2025-08-27T14:02:22.710Z] INFO: Incoming request
+[2025-08-27T14:02:51.457Z] INFO: Incoming request
+[2025-08-27T14:02:51.524Z] INFO: Incoming request
+[2025-08-27T14:03:00.285Z] INFO: Incoming request
+[2025-08-27T14:03:01.988Z] INFO: Incoming request
+[2025-08-27T14:03:06.522Z] INFO: Incoming request
+[2025-08-27T14:03:06.626Z] INFO: Incoming request
+[2025-08-27T14:03:12.706Z] INFO: Incoming request
+[2025-08-27T14:03:18.136Z] INFO: Incoming request
+[2025-08-27T14:03:18.233Z] INFO: Incoming request
+[2025-08-27T14:04:30.670Z] INFO: Incoming request
+[2025-08-27T14:04:36.390Z] INFO: Incoming request
+[2025-08-27T14:04:40.229Z] INFO: Incoming request
+[2025-08-27T14:04:56.389Z] INFO: Incoming request
+[2025-08-31T13:42:44.423Z] WARN: ValidationError: [{"instancePath":"","schemaPath":"#/type","keyword":"type","params":{"type":"object"},"message":"must be object"}]
+[2025-08-31T13:44:19.134Z] WARN: ValidationError: [{"instancePath":"/text","schemaPath":"#/properties/text/maxLength","keyword":"maxLength","params":{"limit":256},"message":"must NOT have more than 256 characters"}]
+[2025-08-31T13:44:31.285Z] WARN: ValidationError: [{"instancePath":"/text","schemaPath":"#/properties/text/maxLength","keyword":"maxLength","params":{"limit":256},"message":"must NOT have more than 256 characters"}]
