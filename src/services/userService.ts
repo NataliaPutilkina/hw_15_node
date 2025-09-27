@@ -14,7 +14,7 @@ export class UserService {
       throw new Error("All fields required");
     }
     if (password !== confirmPassword) {
-      throw new Error("Passwords do not match");
+      throw new Error("Passwords do not match_test");
     }
 
     const userRepo = AppDataSource.getRepository(User);
